@@ -1,0 +1,218 @@
+
+  .modals {
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.336);
+    display: none;
+    justify-content: flex-end;
+  }
+  
+  .modals > div {
+    width: 40%;
+    height: 100%;
+    background-color: rgb(243,246,249);
+    padding: 20px;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    overflow-x: hidden;
+    padding: 10px;
+    gap: 20px;
+    background-color: #fff;
+  }
+  
+  .form select{
+      width: 200px;
+      border-radius: 20px;
+      border-color: rgba(0, 0, 0, 0.518);
+      padding: 10px 0;
+  }
+  
+  .modals #desc{
+      height: 40 0px;
+  }
+  
+  
+  .modals input {
+    height: 50px;
+    background-color: rgb(243,246,249);
+    border: 0;
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 17px;
+  }
+  
+  .modals>div>div:nth-child(1){
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 20px;
+  }
+  
+  .modals input:focus{
+      outline: none;
+  }
+  
+  .modals input::placeholder{
+      color: rgba(0, 0, 255, 0.55);
+  }
+  
+  .modals>div>div:nth-child(3){
+      display: flex;
+      justify-content: flex-end;
+      margin: 20px 0;
+  }
+  
+  .modals i{
+      cursor: pointer;
+      font-size: 18px;
+  }
+  
+  .submit{
+      height: 40px;
+      width: 100px;
+      margin-left: 10px;
+      border-radius: 10px;
+      border: 0;
+      background-color: rgb(44,79,191);
+      color: #fff;
+      cursor: pointer;
+  }
+  
+  .cancel{
+      height: 40px;
+      width: 100px;
+      margin-left: 10px;
+      border-radius: 10px;
+      background-color: #fff;
+      border: 1px solid black;
+      cursor: pointer;
+  }
+  
+  .das{
+      display: flex;
+      gap: 20px;
+  }
+  
+  .modal-ticket{
+      position: fixed;
+      top: 0;
+      z-index: 100;
+      width: 100%;
+      height: 100vh;
+      background-color: rgba(0, 0, 0, 0.336);
+      display: none;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  #ticket_close{
+      cursor: pointer;
+  }
+  
+  .modal-ticket>div{
+      width: 60%;
+      height: 600px;
+      padding: 30px;
+      background-color: rgb(243,246,249);
+  
+  }
+  
+  .modal-ticket>div>div:nth-child(1){
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 20px;
+      padding-left: 10px;
+  }
+  
+  #ticket_forms{
+      width: 100%;
+      height: 400px;
+      overflow-x: hidden;
+      background-color: #fff;
+      padding-left: 10px;
+  }
+  
+  .modal-ticket>div input{
+      height: 50px;
+      width: 95%;
+      margin: 10px 0 20px 0;
+      background-color: rgb(243,246,249);
+      border: 0;
+      border-radius: 20px;
+      padding: 0 20px;
+      font-size: 17px;
+  }
+  
+  .modal-ticket>div input::placeholder{
+      color: rgba(0, 0, 255, 0.516);
+  }
+  
+  .modal-ticket>div input:focus{
+      outline: none;
+  }
+  
+  .modal-ticket>div textarea{
+      width: 95%;
+      height: 200px;
+      background-color: rgb(243,246,249);
+      margin-top: 10px;
+      border-color: rgba(0, 0, 0, 0.568);
+      border-radius: 20px;
+      padding: 20px;
+  }
+  
+  .modal-ticket>div textarea:focus{
+      outline: none;
+  }
+  
+  .modal-ticket>div>div:nth-child(3){
+      display: flex;
+      justify-content: flex-end;
+      margin: 20px 0;
+  }
+  
+  .modal-ticket button{
+      height: 40px;
+      width: 100px;
+      margin-left: 10px;
+      border-radius: 10px;
+      border: 0;
+      cursor: pointer;
+  }
+  
+  #ticket_cancel{
+      background-color: #fff;
+      border: 1px solid rgba(0, 0, 0, 0.594);
+  }
+  
+  #ticket_submit{
+      background-color: rgb(44,79,191);
+      color: #fff;
+  }
+  
+  
+  #webRule>div>div>p+p{
+      margin: 10px 0;
+  }
+  
+  #webRule>div>div select{
+      width: 40%;
+      border-radius: 20px;
+      height: 40px;
+      margin: 20px 0;
+  }
+  
+  #web_cancel{
+      border: 1px solid rgba(0, 0, 0, 0.491);
+  }
+  
+  #web_submit{
+          background-color: blue;
+          color: #fff;
+  }

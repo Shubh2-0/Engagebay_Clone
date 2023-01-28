@@ -1,0 +1,549 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#top_section {
+  margin-top: 80px;
+  padding: 40px 40px;
+  border: 1px solid black;
+  text-align: center;
+  background-color: blue;
+  color: white;
+  font-family: 'noto sans';
+  font-weight: 00;
+}
+#button_div {
+  background-color: white;
+}
+#heading {
+  font-size: 38px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+#intro {
+  font-size: 23px;
+  margin: 15px auto 50px auto;
+}
+
+#button_div {
+  border-radius: 30px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 15px;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+#button_div button {
+  background-color: transparent;
+  border-radius: 50px;
+  border: none;
+  padding: 20px;
+}
+#button_div button:hover {
+  background-color: #d7e2fe;
+  color: white;
+}
+
+.tob_btn_first_p {
+  color: #4e44e6;
+  font-size: 18px;
+  font-weight: 450;
+  font-family: 'Roboto';
+  margin: 0px;
+}
+.tob_btn_first_p + p {
+  margin-top: 10px;
+  color: #4e44e6;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+/* display property */
+#duration_button {
+  background-color: #37c1f9;
+  width: fit-content;
+  margin: auto;
+  border-radius: 50px;
+  margin-top: -30px;
+  display: flex;
+  /* display: none; */
+  margin-bottom: 40px;
+}
+#duration_button button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 13px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  padding: 15px 50px;
+  border-radius: 50px;
+}
+#duration_button button:hover {
+  background-color: white;
+  color: #37c1f9;
+  font-weight: 600;
+}
+
+/* display properties */
+/* pricing div start from here  */
+#first_pricing_div {
+  width: 85%;
+  margin: auto;
+  margin-top: 50px;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  height: fit-content;
+  margin-bottom: 100px;
+  /* display: none; */
+}
+#first_pricing_div > div {
+  background-color: #e7f9ff;
+  height: auto;
+  border-radius: 5px;
+  padding: 30px 0px;
+  display: grid;
+}
+#first_pricing_div > div:nth-child(3) {
+  background-color: #f5fddb;
+}
+#first_pricing_div > div:nth-child(3) .show_worth {
+  background-color: #e4f3b3;
+  color: #262626 !important;
+}
+#first_pricing_div > div:nth-child(3) .center {
+  color: #7c9b00;
+}
+#first_pricing_div > div:nth-child(3) .red {
+  color: #7c9b00;
+  background-color: #e7eece;
+}
+
+#first_pricing_div > div:nth-child(3) button {
+  background-color: #a2cd00;
+}
+/* children div of first_pricing_div have grand div on top  */
+#first_pricing_div > div .show_worth {
+  width: fit-content;
+  margin: auto;
+  padding: 5px 10px;
+  border-radius: 20px;
+  color: #3a2d30;
+  font-size: 12px !important;
+  font-size: 500px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  background-color: #c6e0f6;
+}
+#first_pricing_div > div .center {
+  text-align: center;
+  color: #0050af;
+  text-align: center;
+  font-size: 15px;
+}
+.actual_price1 p {
+  font-size: 25px !important;
+  margin: 30px 0px 10px 0px !important;
+  text-align: center !important;
+  display: flex;
+  justify-content: center;
+  font-family: 'Quicksand';
+}
+.month {
+  font-family: 'Roboto';
+  font-weight: 300;
+}
+/* list icon div  */
+.red {
+  background-color: #c5e5ff;
+  width: fit-content;
+  border-radius: 50%;
+  padding: 2px 2px;
+  padding-left: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  display: inline;
+  margin-right: 10px;
+  margin-left: 30px !important;
+}
+
+#first_pricing_div .actual_price span {
+  font-size: 61px;
+  margin-top: -10px;
+  font-family: sans-serif;
+}
+/* first_pricing_div inside that we have four div(direct)  inside each div unordered list  */
+ul {
+  margin-top: 50px;
+}
+
+/* each direct children div of first_pricing_div inside ul  */
+li {
+  list-style: none;
+  margin-bottom: 20px;
+  font-family: 'Roboto';
+  font-weight: 300;
+  font-size: 15px;
+}
+
+#first_pricing_div button {
+  font-size: 15px;
+  color: white;
+  background-color: #20bdee;
+  width: 80%;
+  border-radius: 5px;
+  border: none;
+  padding: 17px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+#first_pricing_div button i {
+  margin-left: 20px;
+}
+
+#first_pricing_div > div > div + div {
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-bottom: 0 !important ;
+}
+
+/* batch container */
+
+#batch_container {
+  height: auto;
+  background-color: #0050af;
+  color: white;
+  width: 100%;
+  padding: 65px 0px;
+}
+#batch_container h2 {
+  text-align: center;
+  font-family: 'Roboto';
+  margin-top: 50px;
+  margin-bottom: 30px;
+  font-size: 23px;
+}
+#child_batch_id {
+  width: 60%;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  margin: auto;
+  gap: 50px;
+}
+
+/* compare section  */
+/* display property */
+#comapre_plans {
+  text-align: center;
+  font-family: 'Noto Sans Limbu';
+  width: fit-content;
+  margin: 80px auto 50px auto;
+  /* display: none; */
+}
+#comapre_plans p {
+  font-weight: 600;
+  font-size: 38px ;
+  margin-bottom: 0px;
+}
+
+
+#comapre_plans p + p {
+  font-size: 20px;
+  font-weight: 300;
+  color: #817780;
+  margin: 10px;
+}
+
+/* display property */
+/* compare plan div which have 4 child div  */
+#compare_plan_div {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 0px 7%;
+  gap: 10px;
+  margin-bottom: 300px;
+  /* display: none; */
+}
+#compare_plan_div > div {
+  display: grid;
+  height: auto;
+}
+.worth_second_div {
+  font-size: 14px;
+  color: #262626;
+  font-weight: 500;
+}
+
+.month_second_div {
+  font-size: 14px;
+  color: #262626;
+}
+#compare_plan_div > div > div:nth-child(1) > p {
+  margin: 7px;
+}
+
+#compare_plan_div > div > div:nth-child(1) {
+  text-align: center;
+  background-color: #cef1fc;
+  font-family: 'Quicksand';
+  padding: 5px 0px;
+}
+#compare_plan_div > div > div:nth-child(2) {
+  background-color: #e7f9ff;
+}
+#compare_plan_div > div > div:nth-child(2) p {
+  display: inline;
+  margin-left: 5px;
+}
+#number_three > div:nth-child(1) {
+  background-color: #e4f3b3 !important;
+}
+#number_three > div:nth-child(1) .amount_second_div {
+  color: #7c9b00 !important;
+}
+.amount_second_div span {
+  margin-left: 5px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+
+#number_three > div + div {
+  background: #f5fddb !important;
+}
+
+#compare_plan_div .list_names {
+  font-size: 17px;
+  color: #0050af;
+  font-family: 'Noto Sans';
+  font-weight: 500;
+  margin-left: 25px !important;
+}
+#number_three .list_names {
+  color: #7c9b00;
+}
+
+#compare_plan_div ul > li > p {
+  font-size: 13px;
+}
+
+#compare_plan_div > div > div:nth-child(2) > div {
+  padding-top: 10px !important;
+}
+
+#compare_plan_div ul {
+  padding-left: 10%;
+  margin-top: 20px;
+}
+#compare_plan_div ul > li {
+  margin-bottom: 4%;
+}
+
+#compare_plan_div > div > div:nth-child(3) {
+  background-color: #e7f9ff;
+  text-align: center;
+  padding: 25px 0px;
+}
+
+#compare_plan_div > div > div:nth-child(3) button {
+  background-color: #20bdee;
+  width: 85%;
+  color: white;
+  font-size: 15px;
+  padding: 15px 0px;
+  border: none;
+  border-radius: 5px;
+}
+.sign_up span {
+  margin-left: 10px;
+}
+#compare_plan_div > div:nth-child(3) button{
+background-color: #a2cd00 !important ;
+
+}
+
+
+#compare_plan_div .cut_off > p {
+  text-decoration: line-through;
+}
+#compare_plan_div .cut_off {
+  color: rgb(174, 168, 168);
+}
+/* sign_up */
+
+/* .first_div_of_compare_plan{
+    top: 70px !important;
+    width: 320px !important;
+    position: fixed !important;
+} */
+
+#all_in_one1 {
+  text-align: center;
+  width: fit-content;
+  margin: auto;
+  margin-top:200px;
+}
+#name p {
+  font-family: 'Noto Sans';
+  font-weight: 500;
+  font-size: 28px;
+  margin: 1% 0%;
+}
+#one_all {
+  font-weight: 700 !important;
+  color: #6639b3;
+}
+
+#input {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border: 2px solid #ff7342;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-radius: 50px;
+  margin: 40px;
+  margin-bottom: 30px;
+}
+#input input {
+  width: 70%;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  padding-left: 20px;
+}
+#input input::placeholder {
+  color: gray;
+}
+#input button {
+  padding: 16px 34px;
+  font-size: 16px;
+  border-radius: 50px;
+  background: #ff7342;
+  color: white;
+  font-family: 'NOTO SANS';
+  font-weight: 600;
+  border: none;
+}
+
+#required {
+  display: flex;
+  width: fit-content;
+  margin: auto;
+  gap: 20px;
+  font-family: 'noto sans';
+  font-weight: 500;
+}
+#required i {
+  display: inline;
+  margin-right: 5px;
+  color: #6c41b5;
+  font-size: 15px;
+}
+#required p {
+  display: inline;
+}
+
+#review {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  margin-top: 200px;
+  margin-bottom: 300px;
+}
+#image img {
+  border-radius: 10px 0 0 10px;
+}
+
+#pera1 {
+  margin-top: 120px !important;
+  font-weight: 500;
+}
+
+#content {
+  background: #1b2a4e;
+  color: white;
+  font-family: 'noto sans';
+  padding: 0px 30px;
+  border-radius: 0 10px 10px 0;
+}
+#content > p {
+  font-size: 24px;
+  margin: 0;
+  padding: 0;
+  line-height: 40px;
+  margin-left: 30px;
+}
+#content > p + p {
+  font-size: 18px;
+  margin-top: 20px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+#content > p + p + p {
+  font-size: 14px;
+  margin-top: 20px;
+  font-weight: 300;
+  margin-top: 0;
+}
+
+button:hover {
+  cursor: pointer !important;
+}
+
+/* display none */
+#service_bay_div {
+  text-align: center;
+  background-color: #e7f9ff;
+  padding: 100px 0px;
+  display: none;
+}
+
+#service_bay_div > p {
+  font-size: 38px;
+  font-family: 'noto sans';
+  font-weight: 700;
+  margin: 2%;
+}
+#service_bay_div > p + p {
+  font-size: 18px;
+  font-weight: 200;
+}
+#service_bay_div button {
+  background-color: #20bdee;
+  width: 13%;
+  color: white;
+  font-size: 13px;
+  padding: 15px 0px;
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+}
+#service_bay_div button span i {
+  margin-left: 10px;
+}
+#service_bay_div > a + p {
+  font-size: 15px;
+  font-weight: 300;
+  ;
+}
+
+.amount_second_div{
+  font-size: 20px;
+  color: #0050af;
+}
+
+
+.amount_second_div span {
+  font-size: 28px !important;
+  color: #0050af;
+  font-weight: 550;
+}
+

@@ -1,0 +1,162 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+#nav {
+    top: 0px;
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    z-index: 100;
+}
+
+#navbar {
+    background-color: whitesmoke;
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+}
+
+#nav_left {
+    display: flex;
+    position: relative;
+}
+
+#mrkt_dropdown {
+    position: absolute;
+    top: 50px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    width: 200px;
+    height: 160px;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: space-around;
+    display: none;
+}
+
+#nav_mid {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#nav_right>div {
+    cursor: pointer;
+}
+
+#nav_right {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 300px;
+}
+
+#logo>img {
+    width: 30px;
+    height: 30px;
+}
+
+#logo {
+    margin: auto;
+    margin-left: 30px;
+}
+
+#marketing_content>img {
+    width: 25px;
+    height: 30px;
+    margin: auto 10px;
+}
+
+#marketing {
+    margin: auto 20px;
+    border-radius: 4px;
+}
+
+#marketing_content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 550;
+    cursor: pointer;
+    padding: 2px 18px;
+    border-radius: 6px;
+    background-color: rgb(239, 247, 255);
+    color: #CD5C02;
+}
+
+.nav_mid_list {
+    font-weight: 550;
+    color: rgb(53, 53, 53);
+    cursor: pointer;
+}
+
+.nav_mid_list:hover {
+    color: blue;
+}
+
+#mrkt_dropdown>div>span>img {
+    width: 20px;
+    height: 20px;
+    margin: auto 20px;
+}
+
+#mrkt_dropdown>div:hover {
+    background-color: white;
+    border-radius: 5px;
+}
+
+#mrkt_dropdown>div {
+    cursor: pointer;
+    color: 373449;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+
+#profile_dropdown:hover .dropdown_content {
+    display: flex;
+}
+
+.dropdown_content {
+    position: absolute;
+    right: 20px;
+    width: 280px;
+    border: 6px;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    display: none;
+    background-color: rgb(245, 245, 245);
+}
+
+#prof_header {
+    display: flex;
+    align-items: center;
+}
+
+#prof_img {
+    margin-right: 20px;
+}
+
+#prof_other>div:hover {
+    text-decoration: underline;
+}
+
+#prof_other>div>span {
+    margin: auto 20px;
+}
+
+#prof_other>div {
+    margin: 10px auto;
+    height: 30px;
+    color: rgb(39, 39, 39);
+    display: flex;
+    align-items: center;
+}

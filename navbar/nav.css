@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+#nav {
+    color: rgb(65, 65, 65);
+    top: 0;
+    display: flex;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    padding: 0px 80px;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    background-color: white;
+}
+
+#nav_list>div:hover {
+    color: rgb(0, 132, 255);
+}
+
+#nav_list>div {
+    font-weight: 550;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+#nav_list {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+    margin-left: 20px;
+    position: relative;
+}
+
+#logo {
+    width: 18%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#logo>img {
+    width: 100%;
+}
+
+#nav_btns {
+    height: 100%;
+    display: flex;
+    width: 25%;
+    justify-content: space-between;
+}
+
+#nav_btns>button {
+    margin: auto 5px;
+    padding: 8px 12px;
+    width: 140px;
+    height: 45px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#nav_free_demo {
+    background: #6639B3;
+    color: white;
+    font-size: 16px;
+    font-weight: 550;
+}
+
+#nav_free_signup_btn {
+    background: #FF7342;
+    font-size: 16px;
+    font-weight: 550;
+    color: white;
+}
+
+.down_arrow {
+    margin-left: 5px;
+}
+
+#on_prod_hover {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 60px;
+    padding: 40px 80px;
+    background-color: whitesmoke;
+    display: none;
+    animation: apppend-div .2s linear;
+    z-index: 100;
+    height: 95vh;
+}
+
+@keyframes apppend-div {
+    from {
+        height: 0px
+    }
+    to {
+        height: 100%;
+    }
+}
+
+#on_prod_hover_content {
+    overflow: scroll;
+    position: relative;
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    background-color: whitesmoke;
+}
+
+#on_prod_hover_content>div {
+    margin: 10px;
+}
+
+#prod_hover_left>div>div {
+    font-size: 1.2rem;
+    margin-left: 20px;
+    font-weight: 600;
+}
+
+#prod_hover_left>div>img {
+    width: 30px;
+    height: 30px;
+}
+
+#prod_hover_left>div:nth-child(1):hover {
+    background-color: #D9F4ED;
+}
+
+#prod_hover_left>div:nth-child(2):hover {
+    background-color: #FFEBD9;
+}
+
+#prod_hover_left>div:nth-child(3):hover {
+    background-color: #FFF7D9;
+}
+
+#prod_hover_left>div:nth-child(4):hover {
+    background-color: #e1e1ff;
+}
+
+#prod_hover_left>div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 20px 0px;
+    height: 50px;
+    padding-left: 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#prod_hover_left {
+    width: 300px;
+}
+
+#allinone {
+    color: #00B888;
+}
+
+#prod_hover_allinone_suite {
+    justify-content: space-around;
+    display: flex;
+}
+
+#prod_hover_CRM {
+    width: 500px;
+    justify-content: space-around;
+    display: none;
+}
+
+#prod_hover_marketing_bay {
+    width: 500px;
+    justify-content: space-around;
+    display: none;
+}
+
+#prod_hover_service {
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    display: none;
+}
+
+.prod_hover_mid_line:hover {
+    color: #3d3dff;
+}
+
+.prod_hover_mid_line {
+    margin: 30px auto;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#prod_hover_right {
+    background-color: rgb(241, 241, 241);
+    width: 500px;
+}
+
+.all_plans {
+    margin: 20px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.prod_right_container>div>img {
+    width: 20px;
+    height: 20px;
+}
+
+.prod_right_container>div:hover {
+    background-color: white;
+}
+
+.prod_right_container>div {
+    display: flex;
+    margin: 15px 30px;
+    padding: 10px;
+    cursor: pointer;
+    width: 80%;
+    border-radius: 8px;
+}
+
+.prod_right_container>div>div {
+    margin-left: 20px;
+}
+
+.prod_right_container>div>div>h5 {
+    font-size: 1.1rem;
+}
+
+.prod_right_container>div>div>p {
+    color: rgb(107, 107, 107);
+    margin-top: 10px;
+}
+
+#cmpre_plans {
+    font-weight: 600;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+}
+
+#cmpre_plans_r {
+    font-weight: 600;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+}
+
+#for_arrow {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+.compare_plans_div {
+    display: flex;
+    align-items: center;
+}
+
+
+/* resources div on hover properties  */
+
+#on_resources_hover {
+    position: fixed;
+    width: 100%;
+    overflow-y: auto;
+    left: 0;
+    top: 60px;
+    padding: 40px 80px;
+    background-color: rgb(255, 255, 255);
+    display: none;
+    animation: show-div .2s linear;
+    z-index: 100;
+    height: 90vh;
+}
+
+@keyframes show-div {
+    from {
+        height: 0px
+    }
+    to {
+        height: 100%;
+    }
+}
+
+#resource_hover_left>div {
+    font-size: 1.2rem;
+    margin-left: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#resource_hover_left>div:hover {
+    background-color: #e1e1ff;
+}
+
+#on_resources_hover_content {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+
+#resource_hover_left>div {
+    padding: 20px;
+}
+
+#resource_hover_right {
+    width: 400px;
+}
+
+.resources_hide_divs {
+    display: none;
+}
+
+#nav_free_tools {
+    position: relative;
+}
+
+#resource_hover_landing_page {
+    display: block;
+}
+
+
+/* on free tools hover showing a small div  */
+
+#free_tools_hover {
+    position: absolute;
+    background-color: white;
+    border-radius: 10px;
+    width: 180px;
+    padding: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    overflow-y: auto;
+    top: 30px;
+    animation: show-div 0.2s linear;
+    display: none;
+    transition-duration: 0.2s;
+}
+
+#free_tools_hover>p {
+    font-weight: 200;
+    margin: 12px 0px;
+}
+
+#free_tools_hover>p:hover {
+    color: blue;
+    background-color: whitesmoke;
+}

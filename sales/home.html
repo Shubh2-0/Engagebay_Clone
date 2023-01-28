@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home2.css">
+    <title>Dashboard</title>
+    <script src="https://kit.fontawesome.com/24c494a6b6.js" crossorigin="anonymous">
+    </script>
+
+    <link rel="icon" type="image/x-icon" href="https://cdn5.engagebay.com/images/256x256.png">
+
+    <!-- font added  -->
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic" rel="stylesheet" />
+
+    <!-- <link rel="stylesheet" href="/sales/styles/sales-nav.css"> -->
+    <link rel="stylesheet" href="../login_nav/loginnav.css">
+    <link rel="stylesheet" href="home.css">
+</head>
+
+<body>
+    <div id="nav"></div>
+
+    <div id="big_div">
+        <button id="close"><i class="fa-solid fa-xmark"></i></button>
+        <div id="form_div"></div>
+    </div>
+    <div id="loader_img">
+        <div id="loading_img">
+            <img src="https://i.stack.imgur.com/hzk6C.gif" alt="">
+        </div>
+    </div>
+    <div id="dashbord_main">
+        <!-- 1 -->
+        <div id="starterCard">
+            <div id="dashbord_header">
+                <h3 id="dashboard_heading">Dashboard <span><i class="fa-solid fa-chart-pie"></i></span> </h3>
+                <p> Your statistics </p>
+            </div>
+            <div id="show_count">
+                <div>
+                    <p class="total_count" id="dash_contacts">0</p>
+                    <p>Contacts</p>
+                </div>
+                <div>
+                    <p class="total_count" id="dash_tickets">0</p>
+                    <p>Tickets</p>
+                </div>
+                <div>
+                    <p class="total_count" id="dash_tasks">0</p>
+                    <p>Tasks</p>
+                </div>
+                <div>
+                    <p class="total_count" id="dash_auto">0</p>
+                    <p>Automations</p>
+                </div>
+                <div>
+                    <p class="total_count" id="dash_auto">5</p>
+                    <p>Importent Days</p>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div id="dashbord_cards">
+            <!-- 2 -->
+            <div id="contact_card">
+                <div id="contacts_header" class="first_child_of_each_div">
+                    <h3>Contacts <span><i class="fa-solid fa-address-book"></i></span></h3>
+                    <p>See your contacts here</p>
+                </div>
+                <div id="contact_data" class="card_content">
+                    <img src="https://d2p078bqz5urf7.cloudfront.net/cloud/assets/themev2/img/no-data-images/C-13.svg" alt="">
+                </div>
+            </div>
+
+            <!-- 3 -->
+            <div id="tickets_card">
+                <div id="tickets_header" class="first_child_of_each_div">
+                    <h3>Tickets<span><i class="fa-solid fa-tag"></i></span></h3>
+                    <p>Tickets this Month</p>
+                </div>
+                <div class="card_content" id="tickets_div">
+                    <img src="https://d2p078bqz5urf7.cloudfront.net/cloud/assets/themev2/img/no-data-images/C-13.svg" alt="">
+                </div>
+            </div>
+
+            <!-- 4 -->
+            <div>
+                <div id="tasks_header" class="first_child_of_each_div">
+                    <h3>Tasks <span><i class="fa-sharp fa-solid fa-laptop-file"></i></span></h3>
+                    <p>See and track your tasks</p>
+                </div>
+                <div class="card_content" id="tasks_div">
+                </div>
+                <img src="https://d2p078bqz5urf7.cloudfront.net/cloud/assets/themev2/img/no-data-images/C-11.svg" alt="">
+            </div>
+            <!-- 5 -->
+            <div>
+                <div id="auto_header" class="first_child_of_each_div">
+                    <h3>Automations <span><i class="fa-solid fa-hard-drive"></i></span></h3>
+                    <p>Track: Default | Duration: This Month</p>
+                </div>
+                <div class="card_content" id="automation_div">
+                    <img src="https://d2p078bqz5urf7.cloudfront.net/cloud/assets/themev2/img/no-data-images/C-5.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ############################################# -->
+
+    <div class="modals" id="Deals">
+        <div>
+            <div>
+                <h2>New Contact</h2>
+                <p class="imp_fields">fields marked with * are mandatory</p>
+                <p><i class="fa-solid fa-xmark" id="deal_close"></i></p>
+            </div>
+
+            <div class="form">
+                <label for="">Contact No.*</label>
+                <input type="number" placeholder="Enter Contact Number" id="dealID" required>
+                <label for="name">Name *</label>
+                <input type="text" placeholder="Enter Name" id="dealName" required>
+                <label for="desc">Description</label>
+                <input type="text" placeholder="Description" id="dealDesc">
+                <label for="amount">Amount</label>
+                <div class="das">
+                    <select id="dealSlct">
+                        <option value="USD">USD ($)</option>
+                        <option value="AED">AED (AED)</option>
+                        <option value="ARS">ARS ($)</option>
+                        <option value="ANG">ANG (f)</option>
+                        <option value="AUD">AUD ($)</option>
+                        <option value="BHD">BHD (BD)</option>
+                        <option value="BND">BND ($)</option>
+                        <option value="BOB">BOB ($b)</option>
+                        <option value="BRL">BRL (R$)</option>
+                        <option value="BWP">BWP (P)</option>
+                        <option value="BYN">BYN (p.)</option>
+                        <option value="CAD">CAD ($)</option>
+                        <option value="CHF">CHF ($)</option>
+                        <option value="CLP">CLP ($)</option>
+                        <option value="DKK">DKK (kr)</option>
+                        <option value="DOP">DOP (RD$)</option>
+                        <option value="DZD">DZD (DA) ($)</option>
+                        <option value="EEK">EEK (kr)</option>
+                    </select>
+                    <input type="number" placeholder="Deal Amount" id="dealAmount">
+                </div>
+                <label for="clsDate">Closed Date</label>
+                <input type="datetime-local" placeholder="Close Date" id="closeDate">
+                <label for="">Note</label>
+                <input type="text" id="dealNote">
+                <label for="">Tags</label>
+                <input type="text" placeholder="Multiple tag names separated by comma" id="dealTag">
+                <label for="">Owner</label>
+                <input type="email" placeholder="Owner Email" id="dealOwner">
+                <label for="">Companies</label>
+                <input type="text" placeholder="Enter Company" id="dealCompany">
+            </div>
+            <div>
+                <button class="cancel" id="deal_cancel">Cancel</button>
+                <button class="submit" id="deal_submit">Submit</button>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="tickets" class="modal-ticket">
+        <div>
+            <div>
+                <h2>New Ticket</h2>
+                <p class="imp_fields">fields marked with * are mandatory</p>
+                <p><i class="fa-solid fa-xmark" id="ticket_close"></i></p>
+            </div>
+            <div id="ticket_forms">
+                <p>To</p>
+                <input type="text" placeholder="Enter Contact Name/Email" id="ticketName">
+                <p>CC</p>
+                <input type="text" placeholder="Enter Email Address" id="ticketEmail">
+                <p>Subject *</p>
+                <input type="text" id="ticketSubject">
+                <p>Assignee *</p>
+                <input type="text" id="ticketAssignee" placeholder="Enter Assignee Name">
+                <p>Message</p>
+                <textarea name="input" id="input_desc" placeholder="Enter your message here...."></textarea>
+
+            </div>
+            <div>
+                <button id="ticket_cancel">Cancel</button>
+                <button id="ticket_submit">Submit</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="modals" id="tasks">
+        <div>
+            <div>
+                <h2>Create Task</h2>
+                <p class="imp_fields">fields marked with * are mandatory </p>
+                <p><i class="fa-solid fa-xmark" id="task_close"></i></p>
+            </div>
+
+            <div class="form">
+                <label>Name *</label>
+                <input type="text" placeholder="Task name" id="taskName">
+                <label for="taskType">Type *</label>
+                <select id="taskType">
+                    <option value="Todo">Todo</option>
+                    <option value="Call">Call</option>
+                    <option value="Email">Email</option>
+                </select>
+                <label for="">Priority * </label>
+                <select id="taskPriority">
+                    <option value="High">High</option>
+                    <option value="Medium">Medium</option>
+                    <option value="Low">Low</option>
+                </select>
+                <label>Due Date</label>
+                <input type="datetime-local" placeholder="Due Date" id="dueDate">
+                <label for="">Notes</label>
+                <input type="text" placeholder="This is all about your task details" id="taskNotes">
+                <label for="">Contacts</label>
+                <input type="number" placeholder="Enter Contact Name/Email" id="taskContacts">
+                <label for="">Companies</label>
+                <input type="text" placeholder="Enter Company" id="taskCompany">
+                <label for="">Status *</label>
+                <select id="taskStatus">
+                    <option value="Not Started">Not Started</option>
+                    <option value="in Progress">in Progress</option>
+                    <option value="Waiting">Waiting</option>
+                    <option value="Completed">Completed</option>
+                    <option value="Deferred">Deferred</option>
+                </select>
+                <label for="">Owner</label>
+                <input type="text" placeholder="Enter Owner Name" id="taskOwner">
+            </div>
+            <div>
+                <button class="cancel" id="task_cancel">Cancel</button>
+                <button class="submit" id="task_submit">Submit</button>
+            </div>
+        </div>
+    </div>
+    <div id="webRule" class="modal-ticket">
+        <div>
+            <div>
+                <h2>Automation</h2>
+                <p class="imp_fields">fields marked with * are mandatory</p>
+                <p><i class="fa-solid fa-xmark" id="web_close"></i></p>
+            </div>
+            <div id="ticket_forms">
+                <p>Name</p>
+                <input type="text" placeholder="Name" id="webName">
+                <p>Condition</p>
+                <p><b>And Group</b></p>
+                <p>Meet all of the following condition</p>
+                <select id="webCondition">
+                    <option value="Page URL">Page URL</option>
+                    <option value="Frequency">Frequency</option>
+                    <option value="Device">Device</option>
+                </select><br>
+                <select id="webContains">
+                    <option value="Contains">Contains</option>
+                    <option value="Doesn't Contain">Doesn't Contain</option>
+                    <option value="is">is</option>
+                    <option value="is not">is not</option>
+                </select>
+                <input type="text" placeholder="Enter Value" id="webValue">
+                <p>Rule</p>
+                <input type="text" id="webRules" placeholder="Write rule here">
+                <p>Action</p>
+                <select id="webAction">
+                    <option value="Choose Action">Choose Action</option>
+                    <option value="Show Productive Message">Choose Action</option>
+                    <option value="Hide Live Chat">Hide Live Chat</option>
+                </select>
+                <p>Description</p>
+                <textarea name="input" id="webDesc" placeholder="Enter description here....."></textarea>
+
+            </div>
+            <div>
+                <button id="web_cancel">Cancel</button>
+                <button id="web_submit">Submit</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+<!-- <script type="module" src="home.js"></script>-->
+<script type="module" src="home2.js"></script>
+<script src="./dashbord.js" type="module"></script>
+<script type="module" src="../login_nav/login_nav.js"></script>

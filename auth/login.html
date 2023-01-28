@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EngageBay - Login</title>
+    <link rel="stylesheet" href="auth.css">
+    <link rel="icon" type="image/x-icon" href="https://cdn5.engagebay.com/images/256x256.png">
+</head>
+
+<body>
+    <div id="login_page">
+        <div id="login_form_sec">
+            <div class="logo">
+                <img src="https://d2p078bqz5urf7.cloudfront.net/cloud/assets/img/engagebay.png" alt="EngageBay logo">
+            </div>
+            <div class="form">
+                <h2>Login</h2>
+                <div id="err_msg">Invalid Crediantials..!</div>
+                <div id="form_dtls">
+                    <label for="username">Username</label>
+                    <input required id="username" type="text" placeholder="Work Email">
+                    <label for="password">Password</label>
+                    <input required id="password" type="password" placeholder="Password">
+                    <button id="login_btn">LOGIN</button>
+                    <div class="google_signup">
+                        <img src="https://cdn1.iconfinder.com/data/icons/google-s-logo/150/Google_Icons-09-1024.png" alt="google image">
+                        <p>SIGN IN WITH G SUITE</p>
+                    </div>
+                </div>
+                <div id="login_form_bottom_sec">
+                    <p>Forgot <span id="forgt_pass">Password</span></p>
+                    <p>Don't have an account? <span id="signup_link">Sign Up</span></p>
+                    <a href="#">Privacy Policy</a>
+                </div>
+            </div>
+        </div>
+        <div id="login_pic">
+            <div id="usr_rev_div" class="user_reviews_div"></div>
+            <div class="svg_img">
+                <img src="https://d2p078bqz5urf7.cloudfront.net/cloud/assets/img/login-image.svg" alt="">
+            </div>
+        </div>
+    </div>
+</body>
+<script type="module" src="login.js"></script>
+
+</html>

@@ -1,0 +1,239 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+#login_page {
+    display: flex;
+}
+
+#login_form_sec {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo {
+    width: 200px;
+    cursor: pointer;
+}
+
+.logo>img {
+    width: 100%;
+}
+
+.form {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px auto;
+}
+
+.form>h2 {
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+
+#form_dtls {
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#form_dtls>input {
+    height: 45px;
+    margin: 10px 0px;
+    outline: none;
+    border: 1px solid rgb(207, 207, 207);
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+#login_btn {
+    background-color: rgba(255, 102, 0, 0.959);
+    height: 50px;
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+    margin: 20px 0px;
+    cursor: pointer;
+}
+
+.google_signup>img {
+    width: 50px;
+    height: 48px;
+    background-color: white;
+}
+
+.google_signup>p {
+    margin: auto;
+    font-size: 1.2rem;
+}
+
+.google_signup {
+    border: 1px solid rgb(0, 132, 255);
+    height: 50px;
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(0, 132, 255);
+    color: white;
+    cursor: pointer;
+}
+
+#forgt_pass:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: rgb(1, 1, 138);
+}
+
+#login_form_bottom_sec {
+    text-align: center;
+    margin-top: -20px;
+}
+
+#login_form_bottom_sec>p {
+    margin: 5px;
+}
+
+#login_pic {
+    position: fixed;
+    width: 70%;
+    height: 100%;
+    right: 0;
+    background: rgb(35, 73, 209);
+    background: linear-gradient(135deg, rgba(35, 73, 209, 1) 21%, rgba(17, 207, 230, 1) 74%);
+    display: flex;
+    flex-direction: column;
+}
+
+.svg_img {
+    width: 600px;
+    position: absolute;
+    bottom: 20px;
+    left: 25%;
+}
+
+.user_reviews_div>img {
+    width: 90px;
+    height: 90px;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.user_reviews_div>div {
+    width: 80%;
+    margin: 10px;
+    color: rgb(241, 241, 241);
+}
+
+.user_reviews_div {
+    background: rgb(35, 73, 209);
+    background: linear-gradient(135deg, rgb(17, 152, 230) 21%, rgb(20, 128, 252) 54%);
+    width: 80%;
+    height: 100px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 8px;
+}
+
+#reviewr_name {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+
+#signup_link:hover,
+#signin_link:hover {
+    text-decoration: underline;
+    color: rgb(1, 1, 138);
+}
+
+#signup_link,
+#signin_link {
+    cursor: pointer;
+}
+
+#modal {
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.336);
+    display: none;
+}
+
+#modal_msg>div {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    align-items: center;
+    height: 40px;
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+}
+
+#modal_msg {
+    width: 500px;
+    border-radius: 10px;
+    padding: 20px;
+    height: 150px;
+    background-color: white;
+    margin: 200px auto;
+    position: relative;
+}
+
+#close_modal {
+    position: fixed;
+    color: white;
+    font-size: 2rem;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+
+#ok_login {
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 10px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    background-color: rgb(37, 116, 37);
+    color: white;
+}
+
+#cancel_modal {
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 10px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    background-color: rgb(212, 212, 212);
+}
+
+#err_msg {
+    font-size: 16px;
+    width: 80%;
+    margin-top: 10px;
+    display: none;
+    text-align: center;
+    color: red;
+}
