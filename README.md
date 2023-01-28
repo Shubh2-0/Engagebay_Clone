@@ -4,6 +4,6 @@
 <h4> Used HTML, CSS, and Javascript for the developent </h4>
 <h4> My Role: Team Member </h4>
 <h4> My Contribution: landing page, website pages, different modules for user data  </h4>
-
+<h4> Append all the data on dom using JavaScript  </h4>
 
 ![eng_dsk](https://user-images.githubusercontent.com/80110392/213511765-8deba6f8-f7bb-4304-a833-9f7dee7c7575.gif)
