@@ -59,9 +59,9 @@ cd engagebay-clone
 
 🙌 This project wouldn't have been possible without the collective effort of the following contributors:
 
-- [Contributor 1](https://github.com/contributor1)
-- [Contributor 2](https://github.com/contributor2)
-- [Contributor 3](https://github.com/contributor3)
+- [Contributor 1](https://github.com/ujjwal1309)
+- [Contributor 2](https://github.com/daljeet-coder)
+- [Contributor 3](https://github.com/GovindPullagura)
 
 We appreciate their unwavering dedication and hard work in making this project a resounding success! 🎉
 
