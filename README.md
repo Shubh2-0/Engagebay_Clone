@@ -54,9 +54,6 @@ cd engagebay-clone
 
 3. Open the project in your favorite code editor and let your imagination soar! 🚀
 
-## Feedback and Support
-
-💌 We value your feedback, suggestions, and any issues you might encounter. Feel free to [create an issue](https://github.com/your-username/engagebay-clone/issues) and let us know your thoughts.
 
 ## Contributors
 
