@@ -57,9 +57,6 @@ cd engagebay-clone
 
 We appreciate their unwavering dedication and hard work in making this project a resounding success! 🎉
 
-## License
-
-📜 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). For more details, please refer to the `LICENSE` file.
 
 ## Acknowledgements
 
