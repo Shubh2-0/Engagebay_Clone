@@ -63,7 +63,7 @@ cd engagebay-clone
 - [Contributor 2](https://github.com/daljeet-coder)
 - [Contributor 3](https://github.com/GovindPullagura)
 
-We appreciate their unwavering dedication and hard work in making this project a resounding success! 🎉
+
 
 
 ## Acknowledgements
@@ -71,4 +71,20 @@ We appreciate their unwavering dedication and hard work in making this project a
 🙏 We express our heartfelt gratitude to the team at Engagebay.com for serving as a constant source of inspiration for this project. Their website has been instrumental in shaping our vision and implementing various features.
 
 We also extend our thanks to the incredible open-source community for their valuable contributions, which have significantly contributed to the development process.
+
+## 📬 Contact
+
+If you want to contact me, you can reach me through below handles.
+
+ <p align="left">
+  <a href="https://www.linkedin.com/in/shubham-bhati-787319213/" target="_blank"><img align="center" src="https://skillicons.dev/icons?i=linkedin" width="40px" alt="linkedin" /></a>&emsp;
+  <a title="shubhambhati226@gmail.com" href="mailto:shubhambhati226@gmail.com" target="_blank"><img align="center"  src="https://cdn-icons-png.flaticon.com/128/888/888853.png"  width="40px"   alt="mail-me" /></a>&emsp;
+  <a href="https://wa.me/+916232133187" target="blank"><img align="center" src="https://media2.giphy.com/media/Q8I2fYA773h5wmQQcR/giphy.gif" width="40px"  alt="whatsapp-me" /></a>&emsp;	
+ </p>
+
+<br>
+
+<div align="center">
+  <strong>💓We appreciate their unwavering dedication and hard work in making this project a resounding success! 🎉</strong>
+</div>
 
