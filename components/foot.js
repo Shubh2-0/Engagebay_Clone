@@ -55,9 +55,9 @@ function foot(){
                     <p>Infusionsoft Alternative</p>
                     <p>Drip Alternative</p>
                     <p>ActiveCampaign Alternative</p>
-                    <p>Insigltly Alternative</p>
+                    <p>Insightly Alternative</p>
                     <p>Aweber Alternative</p>
-                    <p>HubSpot Altrenative</p>
+                    <p>HubSpot Alternative</p>
                     <p>Agile CRM Alternative</p>
                 </div>
                 <div>
@@ -90,7 +90,7 @@ function foot(){
                     <p>One plateform for all your Marketing, Sales, and Support teams.</p>
                     <div id="footer_social_icons">
                         <img src="../images/fb.png" alt="facebook"><img src="../images/linkedin.png" alt="linkedin"><img src="../images/twitter.png" alt="twitter"><img src="../images/youtube.png" alt="Youtube"><img src="../images/insta.png" alt="Insta">
-                        <p>Legal | Terms of Service | Privacy Polocy</p>
+                        <p>Legal | Terms of Service | Privacy Policy</p>
 
                     </div>
                 </div>

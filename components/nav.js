@@ -56,12 +56,12 @@ function navbar(){
                     <p class="prod_hover_mid_line">Marketing Automation</p>
                     <p class="prod_hover_mid_line">Email Marketing</p>
                     <p class="prod_hover_mid_line">Email Sequences</p>
-                    <p class="prod_hover_mid_line">Landig Pages</p>
+                    <p class="prod_hover_mid_line">Landing Pages</p>
                     <p class="prod_hover_mid_line">Web Forms</p>
                     <p class="prod_hover_mid_line">360 Degree Customer View</p>
                     <p class="prod_hover_mid_line">Appoinment Scheduling</p>
                     <p class="prod_hover_mid_line">Software</p>
-                    <p class="prod_hover_mid_line">Contact Mnangement Software</p>
+                    <p class="prod_hover_mid_line">Contact Management Software</p>
                     <p class="prod_hover_mid_line">Why EngageBay CRM?</p>
                 </div>
                 <div id="prod_hover_mid_right">
@@ -80,7 +80,7 @@ function navbar(){
                     <p class="prod_hover_mid_line">Marketing Automation</p>
                     <p class="prod_hover_mid_line">Email Marketing</p>
                     <p class="prod_hover_mid_line">Email Sequences</p>
-                    <p class="prod_hover_mid_line">Landig Pages</p>
+                    <p class="prod_hover_mid_line">Landing Pages</p>
                     <p class="prod_hover_mid_line">Web Forms</p>
                     <p class="prod_hover_mid_line">SMS Marketing</p>
                 </div>
@@ -141,7 +141,7 @@ function navbar(){
                         <img src="../images/List.jpg" alt="free Logo">
                         <div>
                             <h5>Free</h5>
-                            <p>Useful for solopereneurs Free for teams of up to 15 members</p>
+                            <p>Useful for solopreneurs Free for teams of up to 15 members</p>
                         </div>
                     </div>
                     <div>
@@ -185,7 +185,7 @@ function navbar(){
                 <div class="res_btns" id="res_crm_guide">CRM Guide</div>
                 <div class="res_btns" id="res_helpdesk">Helpdesk Guide</div>
                 <div class="res_btns" id="res_integ">Integrations</div>
-                <div class="res_btns" id="res_case_std">Case Sutdy</div>
+                <div class="res_btns" id="res_case_std">Case Study</div>
             </div>
             <div class="resources_hide_divs" id="resource_hover_landing_page">
                 <p class="prod_hover_mid_line">The Basics</p>
@@ -198,15 +198,15 @@ function navbar(){
             <div class="resources_hide_divs" id="resource_hover_marketing_guide">
                 <p class="prod_hover_mid_line">The Basics</p>
                 <p class="prod_hover_mid_line">Inbound vs Overbound</p>
-                <p class="prod_hover_mid_line">Engaging Web Bisotors</p>
+                <p class="prod_hover_mid_line">Engaging Web Visitors</p>
                 <p class="prod_hover_mid_line">Engagement and Conversions</p>
                 <p class="prod_hover_mid_line">Nurturing Web Visitors</p>
                 <p class="prod_hover_mid_line">Closing Deals</p>
             </div>
             <div class="resources_hide_divs" id="resource_hover_popups_guide">
-                <p class="prod_hover_mid_line">What are Web Popus?</p>
-                <p class="prod_hover_mid_line">Types of Web Popus</p>
-                <p class="prod_hover_mid_line">Advantages of Web Popus</p>
+                <p class="prod_hover_mid_line">What are Web Popups?</p>
+                <p class="prod_hover_mid_line">Types of Web Popups</p>
+                <p class="prod_hover_mid_line">Advantages of Web Popups</p>
                 <p class="prod_hover_mid_line"> Tips and Tricks </p>
             </div>
             <div class="resources_hide_divs" id="resource_hover_automatic_guide">
@@ -248,7 +248,7 @@ function navbar(){
                 <p class="prod_hover_mid_line">Purpose of Helpdesk Software</p>
                 <p class="prod_hover_mid_line">Right Helpdesk Software</p>
                 <p class="prod_hover_mid_line">Resolve Angry Customer</p>
-                <p class="prod_hover_mid_line">Main Geatures of Help Desk</p>
+                <p class="prod_hover_mid_line">Main Features of Help Desk</p>
                 <p class="prod_hover_mid_line">EngageBay's Helpdesk</p>
             </div>
             <div class="resources_hide_divs" id="resource_hover_integrations">
@@ -271,7 +271,7 @@ function navbar(){
                         <img src="../images/List.jpg" alt="free Logo">
                         <div>
                             <h5>Free</h5>
-                            <p>Useful for solopereneurs Free for teams of up to 15 members</p>
+                            <p>Useful for solopreneurs Free for teams of up to 15 members</p>
                         </div>
                     </div>
                     <div>

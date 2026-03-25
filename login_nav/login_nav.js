@@ -50,8 +50,8 @@ function showProfile(data){
     email.textContent = data.username
 }
 
-let logouuBtn = document.getElementById('log_out')
-logouuBtn.onclick = function(){
+let logoutBtn = document.getElementById('log_out')
+logoutBtn.onclick = function(){
     localStorage.setItem('tkn','');
     localStorage.setItem('username','');
     window.location.href = '../auth/login.html'
